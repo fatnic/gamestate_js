@@ -8,7 +8,7 @@ function state_Pause() {
     this.draw = function() {
         game.ctx.font = 'normal 14px Ubuntu';
         game.ctx.fillStyle = 'white';
-        game.ctx.fillText('PAUSED... [ESC] to quit or [SPACE] to resume...', 120, canvas.height - 10);
+        game.ctx.fillText('PAUSED... [ESC] to quit or [SPACE] to resume...', 120, 20);
     };
 
 }
